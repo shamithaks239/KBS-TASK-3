@@ -111,4 +111,19 @@ The difficulty is automatically adjusted using the `adjust_difficulty()` method:
 
 ---
 
+## 4. Node Registration
+
+This blockchain supports basic node registration to simulate a decentralized network.  
+Each node represents another participant in the blockchain system.
+
+### Node Storage
+
+- Nodes are stored in a **set** called `self.nodes`.
+- Using a set ensures that:
+- Each node address is **unique**
+- Duplicate nodes are automatically ignored
+ 
+---
+
+
 
